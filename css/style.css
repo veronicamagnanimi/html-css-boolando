@@ -21,6 +21,7 @@ img {
     position: absolute;
     bottom: 40px;
     left: 0;
+    z-index: 1;
 }
 
 .sostenibilità {
@@ -29,6 +30,7 @@ img {
     position: absolute;
     bottom: 40px;
     left: 40px;
+    z-index: 1;
 }
 
 .sola-sostenibilità {
@@ -37,6 +39,7 @@ img {
     position: absolute;
     bottom: 40px;
     left: 0;
+    z-index: 1;
 }
 
 .cuore {
@@ -98,6 +101,7 @@ img {
 .col {
     width: calc(95% / 3);
     background-color: rgb(231 231 229);
+    margin-bottom: auto;
 }
 
 .card {
