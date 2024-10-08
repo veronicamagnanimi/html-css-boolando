@@ -68,6 +68,21 @@ img {
     background-color: rgb(255, 255, 255);
 }
 
+/* IMMAGINI  */
+
+.foto-1 {
+    z-index: 1;
+}
+
+.foto-1,
+.foto-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
 
 
 /* MAIN  */
@@ -93,6 +108,10 @@ img {
 
 .card {
     position: relative;
+}
+
+.card:hover .foto-2 {
+    z-index: 1;
 }
 
 
